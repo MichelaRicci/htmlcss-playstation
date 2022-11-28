@@ -31,3 +31,11 @@
 .plus-img {
     height: 300px;
 }
+
+/* Jumbotron */
+
+#jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
