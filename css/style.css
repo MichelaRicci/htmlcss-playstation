@@ -12,10 +12,6 @@
     height: 1000px;
 }
 
-#ps5 [class^=col] {
-    min-height: 150px;
-}
-
 .img-bg {
     height: 500px;
 }
