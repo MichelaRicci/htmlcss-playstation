@@ -17,6 +17,15 @@
 }
 
 #ps5 [class^=col] {
-    height: 200px;
+    min-height: 150px;
     border: 1px dashed black;
+}
+
+.img-bg {
+    height: 500px;
+}
+
+#gallery-games [class^=col] {
+    min-height: 150px;
+    border: 1px dashed white;
 }
