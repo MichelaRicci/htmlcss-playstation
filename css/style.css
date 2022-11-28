@@ -5,7 +5,7 @@
 }
 
 [class^=container], [class^=col] {
-    border: 1px dashed white;
+    border: 1px dashed green;
 }
 
 #jumbotron [class^=col] {
@@ -18,7 +18,6 @@
 
 #ps5 [class^=col] {
     min-height: 150px;
-    border: 1px dashed black;
 }
 
 .img-bg {
@@ -27,5 +26,4 @@
 
 #gallery-games [class^=col] {
     min-height: 150px;
-    border: 1px dashed white;
 }
