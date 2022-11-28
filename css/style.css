@@ -27,3 +27,7 @@
 #gallery-games [class^=col] {
     min-height: 150px;
 }
+
+#plus-img {
+    height: 300px;
+}
