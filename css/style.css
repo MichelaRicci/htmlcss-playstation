@@ -3,3 +3,12 @@
 .main-header {
     height: 60px;
 }
+
+[class^=container], [class^=col] {
+    border: 1px dashed white;
+}
+
+#jumbotron [class^=col] {
+    height: 500px;
+
+}
