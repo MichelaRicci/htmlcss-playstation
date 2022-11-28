@@ -8,10 +8,6 @@
     border: 1px dashed green;
 }
 
-#jumbotron [class^=col] {
-    height: 400px;
-}
-
 #ps5 {
     height: 1000px;
 }
@@ -36,6 +32,11 @@
 
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+
+    height: 80vh;
 }
+
+
