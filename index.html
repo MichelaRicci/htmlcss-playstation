@@ -17,15 +17,14 @@
 </head>
 <body>
    
-    <header class="container-fluid">
-        <div class="top-header bg-dark row row-cols-1 py-1">
+    <header class="container-fluid gx-0">
+        <div class="top-header bg-black row row-cols-1 p-2">
             <div class="col text-end">
                 <img src="img/sony_logo.svg" style="height: 15px" alt="Sony">
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg p-0">
-            <div class="container-fluid gx-0">
+        <nav class="navbar navbar-expand-lg p-0 bg-white container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="img/play_logo.svg" alt="ps-logo">
                     
@@ -33,8 +32,14 @@
 
                 <div class="collapse navbar-collapse flex-grow-1">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active dropdown-toggle" href="#">Giochi</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active dropdown-toggle" href="#">Hardware</a>
@@ -67,17 +72,16 @@
                         <li class="nav-item">
                             <a class="btn btn-dark rounded-pill text-white" href="#">Accedi</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#"><img class="w-50 text-end" src="img/lens.svg" alt="lens"></a>
+                        <li class="nav-item text-center">
+                            <a class="nav-link active" href="#"><img class="w-50" src="img/lens.svg" alt="lens"></a>
                         </li>
                     </ul>
                 </div>
-            </div>
         </nav>
     </header>
 
     <main>
-        <section class="jumbotron bg-dark text-white d-flex align-items-end pb-5" id="main-jumbotron">
+        <section class="jumbotron bg-info text-white d-flex align-items-end pb-5" id="main-jumbotron">
             <div class="container">
                 <div class="row row-cols-1 row-cols-lg-3">
                     <div class="col">
