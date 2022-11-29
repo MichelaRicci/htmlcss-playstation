@@ -70,3 +70,12 @@ header {
     width: 100%;
     border: 3px solid #00439B;
 }
+
+.img-up {
+    transition: 1s;
+}
+
+.img-up:hover {
+    transform: translateY(-15%);
+
+}
