@@ -4,13 +4,10 @@
     height: 60px;
 }
 
-[class^=container], [class^=col] {
+/* [class^=container], [class^=col] {
     border: 1px dashed green;
-}
+} */
 
-.plus-img {
-    height: 300px;
-}
 
 /* Jumbotron */
 
