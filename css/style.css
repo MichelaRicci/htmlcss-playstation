@@ -68,7 +68,7 @@ header {
 
 #btnControl:checked + label > img {
     width: 100%;
-    border: 3px solid #00439B;
+    border: 3px solid #0D6EFD;
 }
 
 .img-up {
@@ -83,5 +83,13 @@ header {
 .overlay:hover{
     opacity: 0.5;
 
-    border-bottom: 2px solid #00439B;
+    border-bottom: 2px solid #0D6EFD;
+}
+
+.border-effect {
+    border: 3px double transparent;
+}
+
+.border-effect:hover {
+    border: 3px double white;
 }
