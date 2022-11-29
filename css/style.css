@@ -58,3 +58,10 @@ header {
 .img-small {
     width: 100px;
 }
+
+
+/* Hover Effects */
+
+.selected:hover {
+    border: 5px solid #00439B;
+}
