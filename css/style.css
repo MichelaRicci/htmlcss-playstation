@@ -86,10 +86,15 @@ header {
     border-bottom: 2px solid #0D6EFD;
 }
 
-.border-effect {
-    border: 3px double transparent;
+.border-effect-light,
+.border-effect-dark {
+    border: 5px double transparent;
 }
 
-.border-effect:hover {
-    border: 3px double white;
+.border-effect-light:hover {
+    border: 5px double #ffffff;
+}
+
+.border-effect-dark:hover {
+    border: 5px double #000000;
 }
