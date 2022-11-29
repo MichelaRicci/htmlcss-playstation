@@ -60,8 +60,13 @@ header {
 }
 
 
-/* Hover Effects */
+/* Effects */
 
-.selected:hover {
-    border: 5px solid #00439B;
+#btnControl {
+    display: none;
+}
+
+#btnControl:checked + label > img {
+    width: 100%;
+    border: 3px solid #00439B;
 }
