@@ -30,7 +30,7 @@
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
 
     height: 80vh;
 }
