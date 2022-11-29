@@ -79,3 +79,9 @@ header {
     transform: translateY(-15%);
 
 }
+
+.overlay:hover{
+    opacity: 0.5;
+
+    border-bottom: 2px solid #00439B;
+}
