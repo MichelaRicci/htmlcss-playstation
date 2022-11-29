@@ -4,10 +4,19 @@
     height: 60px;
 }
 
-/* [class^=container], [class^=col] {
-    border: 1px dashed green;
-} */
+/* Colors */
 
+.bg-gray {
+    background-color: #BEBCBB;
+}
+
+.bg-blue {
+    background-color: #151C3B;
+}
+
+.bg-lightblue {
+    background-color: #00439B;
+}
 
 
 /* Jumbotron */
