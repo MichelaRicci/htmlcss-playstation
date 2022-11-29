@@ -8,17 +8,11 @@
     border: 1px dashed green;
 }
 
-#ps5 {
-    height: 1000px;
-}
 
 .img-bg {
     height: 500px;
 }
 
-#gallery-games [class^=col] {
-    min-height: 150px;
-}
 
 .plus-img {
     height: 300px;
