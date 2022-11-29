@@ -8,19 +8,13 @@
     border: 1px dashed green;
 }
 
-
-.img-bg {
-    height: 500px;
-}
-
-
 .plus-img {
     height: 300px;
 }
 
 /* Jumbotron */
 
-#jumbotron {
+#main-jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,4 +23,9 @@
     height: 80vh;
 }
 
-
+#secondary-jumbotron {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
