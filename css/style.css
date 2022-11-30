@@ -6,10 +6,6 @@
 
 /* Colors */
 
-.bg-black {
-    background-color: #000000;
-}
-
 .bg-gray {
     background-color: #BEBCBB;
 }
@@ -21,15 +17,6 @@
 .bg-lightblue {
     background-color: #00439B;
 }
-
-/* Header */
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
 
 /* Jumbotron */
 
@@ -58,7 +45,6 @@ header {
 .img-small {
     width: 100px;
 }
-
 
 /* Effects */
 
